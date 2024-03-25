@@ -2,6 +2,7 @@ import '../styles/Header.css'
 import Logo from '../assets/logo.png'
 
 function Header () {
+
     return (
         <header>
             <img className='logo' src={Logo} alt="Logo de Sportsee" />
