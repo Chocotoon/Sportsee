@@ -18,8 +18,8 @@ import { useEffect, useState } from "react"
 
 function App() {
 
-  const env = "prod";
-  const userId = 18
+  const env = "dev";
+  const userId = 12
   const [user, setUser] = useState()
   const [userActivity, setUserActivity] = useState()
   const [userSessions, setUserSessions] = useState()
